@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "tests",
   "info": {
-    "name": "test"
+    "name": "employee",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,6 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "test": {
+      "type": "string"
+    },
+    "halo": {
       "type": "string"
     }
   }
